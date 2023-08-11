@@ -37,7 +37,7 @@ public class ChessMatch {
         validateSourcePosition(source);
         validateTargetPosition(source, target);
         Piece capturedPiece = makeMove(source, target);
-        return (ChessPiece) capturedPiece;
+        return (ChessPiece)capturedPiece;
     }
 
     private Piece makeMove(Position source, Position target) {
