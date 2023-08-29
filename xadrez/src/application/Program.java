@@ -47,5 +47,6 @@ public class Program {
         }
         UI.clearScreen();
         UI.printMatch(chessMatch, captured);
+        System.out.println("teste");
     }
 }
